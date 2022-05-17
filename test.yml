@@ -1,0 +1,7 @@
+# ansible
+---
+- hosts: local
+  user: root
+  tasks:
+  - name: install httpd
+    package: name=httpd state-present
